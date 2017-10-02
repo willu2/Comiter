@@ -101,11 +101,11 @@ public class MainActivity extends AppCompatActivity
 
     private void koko(){
         int i = 2+4;
-        kiko();
+        kiko(i);
     }
 
-    private void kiko(){
+    private void kiko(int x){
         int d;
-        System.out.println(d = 32+4);
+        System.out.println( d = 32+4+x);
     }
 }
